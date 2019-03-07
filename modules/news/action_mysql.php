@@ -10,7 +10,8 @@
 
 if (!defined('NV_IS_FILE_MODULES')) {
     die('Stop!!!');
-}
+} 
+// addd the
 
 $sql_drop_module = array();
 $array_table = array(
