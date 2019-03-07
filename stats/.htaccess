@@ -1,0 +1,7 @@
+AuthName "hoctap.vidoweb.com.vn statistics"
+AuthType Basic
+AuthUserFile /home/vidoweb/domains/hoctap.vidoweb.com.vn/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>
