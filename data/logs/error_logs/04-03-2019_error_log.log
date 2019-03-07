@@ -1,0 +1,9 @@
+[Mon, 04 Mar 2019 15:26:04 +0700] [::1] [User Notice(1024): SQLSTATE[HY000] [1049] Unknown database 'nukeviet'] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 75]
+[Mon, 04 Mar 2019 15:26:04 +0700] [::1] [Warning(2): A non-numeric value encountered] [FILE: /admin/modules/functions.php] [LINE: 292]
+[Mon, 04 Mar 2019 15:27:52 +0700] [::1] [Warning(2): Use of undefined constant MCRYPT_MODE_ECB - assumed 'MCRYPT_MODE_ECB' (this will throw an Error in a future version of PHP)] [FILE: /vendor/vinades/nukeviet/Core/Encryption.php] [LINE: 139]
+[Mon, 04 Mar 2019 15:27:52 +0700] [::1] [Warning(2): Use of undefined constant MCRYPT_RIJNDAEL_128 - assumed 'MCRYPT_RIJNDAEL_128' (this will throw an Error in a future version of PHP)] [FILE: /vendor/vinades/nukeviet/Core/Encryption.php] [LINE: 140]
+[Mon, 04 Mar 2019 15:27:52 +0700] [::1] [Error(1): Uncaught Error: Call to undefined function mcrypt_encrypt() in D:\xampp\htdocs\nukeviet\vendor\vinades\nukeviet\Core\Encryption.php:142
+Stack trace:
+#0 D:\xampp\htdocs\nukeviet\install\index.php(765): NukeViet\Core\Encryption->aes_encrypt('\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10\x10...')
+#1 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Encryption.php] [LINE: 142]
