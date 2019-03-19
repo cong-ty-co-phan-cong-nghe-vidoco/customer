@@ -1,4 +1,4 @@
 <?php
-if (!defined('NV_ADMIN') or !defined('NV_MAINFILE'))
-    die('Stop!!!');
- 
+if(!define('NV_IS_MOD_CUS')){
+	die('stop!!!');
+}
