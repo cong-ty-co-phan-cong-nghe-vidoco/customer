@@ -21,5 +21,3 @@ $module_version = array(
     ),
     'files_dir' => array($module_name . '/topics')
 );
-
-
