@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections>
+<connection id="beaaec68-e188-410f-9203-1b316937f239" type="ftp">
+<name>vidoweb.com.vn</name>
+<host>mauweb.vidoweb.com.vn</host>
+<path>/domains/hoctap.vidoweb.com.vn/public_html/modules</path>
+<login>vidoweb</login>
+<passive>true</passive>
+</connection>
+</connections>

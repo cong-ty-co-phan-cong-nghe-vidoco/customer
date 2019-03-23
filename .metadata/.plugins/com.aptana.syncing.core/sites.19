@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sites>
+<site>
+<name>vidoco.vdc &lt;-&gt; vidoweb.com.vn</name>
+<source>workspace:/vidoco.vdc</source>
+<destination>aptanavfs://beaaec68-e188-410f-9203-1b316937f239/</destination>
+</site>
+</sites>
