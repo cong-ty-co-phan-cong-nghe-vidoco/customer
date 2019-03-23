@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;vidoco.vdc/customer/action_mysql.php&apos; to &apos;admin.menu.php&apos;" description="Rename resource &apos;action_mysql.php&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="customer/action_mysql.php" name="admin.menu.php" stamp="1552993942152" updateReferences="true"/>
+</session>
