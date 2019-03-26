@@ -21,9 +21,3 @@ $sql_create_module[] = "CREATE TABLE IF NOT EXISTS " . $db_config['prefix'] . "_
   wardid int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (id)
 ) ENGINE=InnoDB";
-
-
-
-
-
-

@@ -70,6 +70,7 @@ if (preg_match($global_config['check_module'], $module_name)) {
             nv_redirect_location(NV_BASE_ADMINURL . 'index.php?' . NV_NAME_VARIABLE . '=language');
         }
     }
+
     $menu_top = array();
     if (isset($admin_mods['database']) and ! (defined('NV_IS_GODADMIN') or (defined('NV_IS_SPADMIN') and $global_config['idsite'] > 0))) {
         unset($admin_mods['database']);

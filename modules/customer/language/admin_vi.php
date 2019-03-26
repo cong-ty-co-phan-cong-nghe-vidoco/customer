@@ -9,4 +9,5 @@ $lang_translator['copyright'] = '@Copyright (C) 2014 NV Systems LLC. All rights 
 $lang_translator['info'] = '';
 $lang_translator['langtype'] = 'lang_module';
  
-$lang_module['main'] = 'Quản lý học sinh';
+$lang_module['main_cus'] = 'Quản lý Khác Hàng';
+$lang_module['main_cat'] = 'Quản lý danh muc';
