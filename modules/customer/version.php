@@ -2,7 +2,6 @@
 
 if (!defined('NV_ADMIN') or !defined('NV_MAINFILE'))
     die('Stop!!!');
- die(oke);
 $module_version = array(
     'name' => 'karuys', // Tieu de module
     'modfuncs' => 'main', // Cac function co block
