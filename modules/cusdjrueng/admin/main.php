@@ -1,5 +1,5 @@
 <?php
-if(!define('NV_IS_MOD_CUS')){
+if(!define('NV_IS_MOD_CUS_djrueng')){
 	die('stop!!!');
 }
 $xtpl = new XTemplate('main.tpl', VN_ROOTIR . '/themes' . $global_config['admin_theme'] . '/modules/' . $module_file);
