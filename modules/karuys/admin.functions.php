@@ -1,12 +1,9 @@
 <?php
 
-
-if (! defined('NV_ADMIN') or ! defined('NV_MAINFILE') or ! defined('NV_IS_MODADMIN')) {
+if (! defined('NV_MAINFILE') ) {
     die('Stop!!!');
 }
-
-define('NV_IS_CUS_ADMIN', true);
-
-if(defined('NV_IS_CUS_ADMIN')){
-	$alow_func[]="main";
-}
+$allow_func =array();
+	$allow_func[]="main"; 
+	$allow_func[]="cat"; 
+	$allow_func[]="ajax"; 
