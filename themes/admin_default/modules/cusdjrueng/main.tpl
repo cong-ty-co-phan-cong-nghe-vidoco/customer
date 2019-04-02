@@ -1,14 +1,16 @@
 <!-- BEGIN: vidoco -->
 
-<input type="text" value="" name="abc">aa
+<input type="text" value="" name="dcf">
 
-<button class="abc">click</button>
+<button class="dcf">click</button>
 
 
 <script type="text/javascript">
-	var mod=$('input[name="abc"]').val();
-	$(".abc").click(function (){
-		$.post(script_name + '?' + nv_name_variable + '=' + nv_module_name + '&' + nv_fc_variable + '=ajax&nocache=' + new Date().getTime(), 'title=' + encodeURIComponent(title) + '&mod=' + mod + '&id=' + id, function(res) {
+	
+
+	$(".dcf").click(function (){
+	var mod=$('input[name="dcf"]').val();
+		$.post(script_name + '?' + nv_name_variable + '=' + nv_module_name + '&' + nv_fc_variable + '=ajax&nocache=' + new Date().getTime(), 'mod=' + mod, function(res) {
 			console.log(res);
 		});
 	});
@@ -27,13 +29,13 @@
 
 <input type="text" value="" name="dcf">
 <input type="text" value="" name="id">
-<button class="abc">click</button>
+<button class="dcf">click</button>
 
 
 <script type="text/javascript">
 
 	
-	$(".abc").click(function (){
+	$(".dcf").click(function (){
 		var mod=$('input[name="dcf"]').val();
 		var id=$('input[name="id"]').val();
 		console.log(mod);
