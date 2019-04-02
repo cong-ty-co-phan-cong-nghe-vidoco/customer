@@ -1,6 +1,7 @@
 <!-- BEGIN: vidoco -->
 
 <input type="text" value="" name="dcf">
+<input type="text" value="" name="dcf">
 
 <button class="dcf">click</button>
 
