@@ -7,4 +7,7 @@
 	 $lang_translator['info'] = '';
 	 $lang_translator['langtype'] = 'lang_module';
 	  
-	 $lang_module['main'] = 'Tao modules Customer';
+	 $lang_module['main'] = 'Tao modules Customer';
+	 $lang_module['main_cat'] = 'Quản lý danh mục';
+	 $lang_module['customer_add'] = 'Thêm khách hàng';
+	 
