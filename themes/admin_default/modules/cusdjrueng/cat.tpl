@@ -1,3 +1,5 @@
+<!-- BEGIN: cat -->
+
 <form method="POST" name="" action="">
 	<label>Tên danh mục:</label>
 	<input type="text" name="category_name" value="Nhập tên danh mục" />
@@ -10,4 +12,9 @@
 		<option>Danh mục 2</option>
 		<option>Danh mục 3</option>
 	</select
+	
+	
+	
 </form>
+
+<!-- END: cat --> 
