@@ -3,7 +3,8 @@
 <form method="POST" name="" action="">
 	<input type="radio" name="personal" value="" checked="checked" 
 	class="form-check-input" id="exampleRadios2" />&nbsp;Cá nhân
-	<input type="radio" value="" checked="checked" name="organization" />&nbsp;Tổ chức<br />
+	<input type="radio" value="" checked="checked" name="personal" />&nbsp;Tổ chức&nbsp;
+	<input type="radio" name="personal" value="" checked="checked">&nbsp;Cả 2<br />
 	<label>Họ và tên:</label> <input type="text" name="full-name" class="form-control" placeholder="Full name">
 	<label>Tên công ty</label>:&nbsp; <input type="text" class="form-control" name="company" value="" />
 	<label>Địa chỉ</label>:&nbsp; <input type="text" name="adress" class="form-control" value="" />
