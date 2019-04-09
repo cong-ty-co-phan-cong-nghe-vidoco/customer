@@ -10,3 +10,5 @@ $lang_translator['info'] = '';
 $lang_translator['langtype'] = 'lang_module';
  
 $lang_module['main'] = 'Quản lý Khác Hàng';
+$lang_module['main_cat'] = 'Quản lý danh muc';
+$lang_module['customer_add'] = 'Thêm khách hàng'; 
