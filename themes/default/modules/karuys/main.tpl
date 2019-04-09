@@ -1,6 +1,5 @@
 <!-- BEGIN: vidoco -->
 
-<input type="text" value="" name="cdf">
 <input type="text" value="" name="abc">
 <input type="text" value="" name="id">
 <button class="abc">Click</button>
@@ -24,9 +23,7 @@
 
 
 
-<input type="text" value="" name="cdf">
-<input type="text" value="" name="abc">
-<input type="text" value="" name="id">
+<input type="text" value="" name="dcf">
 customer VIdoco Main
 <!-- BEGIN: func -->
 {FUNC}

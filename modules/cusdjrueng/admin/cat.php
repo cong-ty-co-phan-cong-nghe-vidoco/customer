@@ -3,7 +3,8 @@
 if (!define('NV_ADMIN')){
 	die('stop!!!');
 }
-$xtpl = new XTemplete('main.tpl', NV_ROOTDIR . '/themes/' . $global_config['admin_theme'] . '/modules' . $module_file);
+$xtpl = new XTemplete('main.tpl', NV_ROOTDIR . '/themes/' . $global_config['admin_theme'] 
+. '/modules' . $module_file);
 $xtpl->assign('LANG', $lang_module);
 $xtpl->assign('GLANG', $lang_global);
 $cat = 'category';
@@ -22,3 +23,4 @@ $contents = $xtpl->text('main');
 include (NV_ROOTDIR . "/includes/header.php");
 echo nv_admin_theme($contents);
 include (NV_ROOTDIR ."/includes/footer.php");
+
