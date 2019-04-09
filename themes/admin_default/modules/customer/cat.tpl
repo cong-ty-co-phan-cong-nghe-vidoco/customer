@@ -1,3 +1,5 @@
+<!-- BEGIN: vidoco -->
+
 <form method="POST" name="" action="">
 	<label>Tên danh mục:</label>
 	<input type="text" name="category_name" value="Nhập tên danh mục" />
@@ -14,3 +16,5 @@
 	
 	
 </form>
+
+<!-- BEGIN: vidoco -->
