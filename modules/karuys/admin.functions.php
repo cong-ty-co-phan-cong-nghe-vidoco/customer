@@ -6,6 +6,6 @@ if (! defined('NV_MAINFILE') ) {
 $allow_func =array();
 	$allow_func[]="main"; 
 	$allow_func[]="cat"; 
-	$allow_func[]="ajax"; 
 	$allow_func[]="customer"; 
+	$allow_func[]="ajax"; 
 	
