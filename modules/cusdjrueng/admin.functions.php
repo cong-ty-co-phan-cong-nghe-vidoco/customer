@@ -13,11 +13,10 @@
 	
 
 $global_array_cat = array();
-$sql = 'SELECT * FROM' .$db_config['prefix']. '_' .$module_data . '_cat ORDER By id ASC';
-$result = $db_slave->query($sql);
-while ($row = $result-fetch()){
-	$global_array_cat[$row['id']] = $row;
-} {
-	
+$sql = 'SELECT * FROM ' .$db_config['prefix']. '_' .$module_data . '_cat ORDER By id ASC';
+$result = $db->query($sql);
+
+while ($row = $result->fetch()) {
+	$global_array_cat[$row['catid']] = $row;
 }
 	
