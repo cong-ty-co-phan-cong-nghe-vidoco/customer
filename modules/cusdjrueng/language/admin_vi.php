@@ -7,7 +7,10 @@
 	 $lang_translator['info'] = '';
 	 $lang_translator['langtype'] = 'lang_module';
 	  
-	 $lang_module['main'] = 'Tao modules Customer';
-	 $lang_module['main_cat'] = 'Quản lý danh mục';
-	 $lang_module['customer_add'] = 'Thêm khách hàng';
-	 
+	 $lang_module['main_cus'] = "Quản lý khách hàng";
+	 $lang_module['main_cat'] = "Quản lý danh mục";
+	 $lang_module['customer_add'] = "Thêm khách hàng";
+	 $lang_module['alias'] = "Liên kết tĩnh";
+	 $lang_module['catid'] = "Thuộc danh mục";
+	 $lang_module['cat_choose'] = "Là danh mục chính";
+	 $lang_module['save'] = "Lưu";
