@@ -6,7 +6,7 @@ $xtpl = new XTemplate('customer.tpl', NV_ROOTDIR . '/themes/' . $global_config['
 $xtpl->assign('LANG', $lang_module);
 $xtpl->assign('GLANG', $lang_global);
 $xtpl->parse('vidoco');
-$contents = $xtpl->text('vidoco');
+$contents = $xtpl->text('main');
 
 include (NV_ROOTER ."/includes/header(.php)");
 echo nv_admin_theme($contents); 
