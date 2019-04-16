@@ -7,8 +7,8 @@ $xtpl = new XTemplate('main.tpl', NV_ROOTDIR . '/themes/' . $global_config['admi
 $xtpl->assign('LANG', $lang_module);
 $xtpl->assign('GLANG', $lang_global);
  
-$xtpl->parse('vidoco');
-$contents = $xtpl->text('vidoco');
+$xtpl->parse('main');
+$contents = $xtpl->text('main');
  
 include (NV_ROOTDIR . "/includes/header.php");
 //echo $contents; -> echo text off class themes
