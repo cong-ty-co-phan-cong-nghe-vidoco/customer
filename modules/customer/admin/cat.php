@@ -53,16 +53,20 @@ if($savecat){
 		
 	}
 	
+}elseif($row['id']>0){
+	$row = $db->query("SELECT * FROM " . $db_config['prefix'] . "_" . $module_data . "_cat WHERE id = ". $row['id'] )->fetch();
 }
 
-//print_r($global_config);die;
+//print_r($row);die;
 $xtpl = new XTemplate('cat.tpl', NV_ROOTDIR . '/themes/' . $global_config['admin_theme'] . '/modules/' . $module_file);
 $xtpl->assign('LANG', $lang_module);
 $xtpl->assign('GLANG', $lang_global);
+$xtpl->assign('ROW', $row);
 foreach ($global_array_cat as $catid => $cat) {
+	$cat['selected'] = ($row['parentid'] == $cat['id']) ? 'selected="selected"' : "";
 	$xtpl->assign('CAT', $cat);
 	
-	 $xtpl->parse('main.cat');
+	 $xtpl->parse('main.form.cat');
 }
 
 
@@ -71,6 +75,7 @@ if (!empty($error)) {
     $xtpl->assign('ERROR', $error);
     $xtpl->parse('main.error');
 }
+$xtpl->parse('main.form');
 $xtpl->parse('main');
 $contents = $xtpl->text('main');
  
