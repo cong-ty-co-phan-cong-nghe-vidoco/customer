@@ -2,7 +2,7 @@
 if (! defined('NV_ADMIN')) {
     die('Stop!!!');
 }
-
+$page_title = $lang_module['main_cat'];
 
 
 $row['id'] = $nv_Request->get_int('id','get', 0);
@@ -65,6 +65,10 @@ foreach ($global_array_cat as $catid => $cat) {
 	$xtpl->assign('CAT', $cat);
 	
 	$xtpl->parse('main.form.cat');
+}
+foreach ($global_array_cat as $catid1 => $cat1) {
+	$xtpl->assign('DATA', $cat1);
+	$xtpl->parse('main.view');
 }
 if (!empty($error)) {
     $xtpl->assign('ERROR', $error);

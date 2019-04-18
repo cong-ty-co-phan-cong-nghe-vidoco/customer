@@ -28,6 +28,7 @@
 	</tbody>
 </table>
 <!--END: view-->
+
 <!--BEGIN: error-->
 {ERROR}
 <!--END: error-->
