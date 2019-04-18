@@ -60,21 +60,18 @@ $xtpl = new XTemplate('cat.tpl', NV_ROOTDIR . '/themes/' . $global_config['admin
 $xtpl->assign('LANG', $lang_module);
 $xtpl->assign('GLANG', $lang_global);
 $xtpl->assign('ROW', $row);
-foreach ($global_array_cat as $catid => $cat) {
-	$cat['selected'] = ($row['parentid'] == $cat['id']) ? 'selected="selected"' : "";
-	$xtpl->assign('CAT', $cat);
-	
-	$xtpl->parse('main.form.cat');
-}
-foreach ($global_array_cat as $catid1 => $cat1) {
-	$xtpl->assign('DATA', $cat1);
-	$xtpl->parse('main.view');
-}
 if (!empty($error)) {
     $xtpl->assign('ERROR', $error);
     $xtpl->parse('main.error');
 }
-$xtpl->parse('main.form');
+
+foreach ($global_array_cat as $catid => $cat) {
+	$cat['selected'] = ($row['parentid'] == $cat['id']) ? 'selected="selected"' : "";
+	$xtpl->assign('CAT', $cat);
+	$xtpl->parse('main.cat');
+}
+
+
 $xtpl->parse('main');
 $contents = $xtpl->text('main');
  

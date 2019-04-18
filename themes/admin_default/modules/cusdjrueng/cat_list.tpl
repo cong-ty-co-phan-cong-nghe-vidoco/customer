@@ -14,7 +14,7 @@
 				<td>{DATA.title}</td>
 				<td>
 					<a href="{DATA.url_edit}">edit</a> - 
-					delete
+					<a href="{DATA.url_del}">Delete</a>
 				</td>
 			</tr>
 

@@ -18,6 +18,6 @@ $sql = 'SELECT * FROM ' .$db_config['prefix']. '_' .$module_data . '_cat ORDER B
 $result = $db->query($sql);
 
 while ($row = $result->fetch()) {
-	$global_array_cat[$row['catid']] = $row;
+	$global_array_cat[$row['id']] = $row;
 }
 	
