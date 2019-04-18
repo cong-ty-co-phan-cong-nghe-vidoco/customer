@@ -15,11 +15,21 @@ if($savecat){
 		$error=$lang_module['alias_error'];
 	}
 	if(!empty($error)){
+		
 		if($row['id']==0){
 			$sql='INSERT INTO' .$db_config['prefix'] . "_" . $module_data .'_cat (title,alias,catid) VALUES(:title, :alias, '.$row['catid'].');
+			$data_insert = array();
+			$data_insert['title'] = $row['title'];
+			$data_insert['alias'] = $row['alias'];
+			$newcatid = $db->insert_id($sql, 'id', $data_insert);
+			if($newcatid>0){
+				nv_insert_logs(NV_LANG_DATA, $module_name, $lang_module['add_cat'], $row['title'], $admin_info['userid']);
+				
+			}
 		}else{
 			$sql='UPDATE' .$db_config['prefix'] . "_" . $module_data .'_cat SET title=:title, alias=:alias, catid='.$error'['catid'] . 'WHERE id = '.$row['id'];
-					
+			$stmt = $db->prepare(sql);
+			$stmt->execute();	
 		}
 	}
 }

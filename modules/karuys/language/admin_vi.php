@@ -18,3 +18,4 @@ $lang_module['catid'] = 'Thuộc danh mục';
 $lang_module['cat_choose'] = 'Chọn danh mục';
 $lang_module['cat_choose'] = 'Là danh mục chính';
 $lang_module['Save'] = 'Lưu'; 
+
