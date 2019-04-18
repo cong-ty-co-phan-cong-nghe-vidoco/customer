@@ -10,7 +10,8 @@
  	$allow_func[] = "cat";
 	$allow_func[] = "customer";
 	$allow_func[] = "ajax";
-	
+	$allow_func[] = "cat_list";
+	$allow_func[] = "del_cat";
 
 $global_array_cat = array();
 $sql = 'SELECT * FROM ' .$db_config['prefix']. '_' .$module_data . '_cat ORDER By id ASC';
