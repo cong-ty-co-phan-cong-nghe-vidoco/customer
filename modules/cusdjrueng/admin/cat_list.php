@@ -9,7 +9,7 @@ $row = $result->fetchAll();
 
 $xtpl = new XTemplate('cat_list.tpl', NV_ROOTDIR . '/themes/' . $global_config['admin_theme'] . '/modules/' . $module_file);
 $xtpl->assign('LANG', $lang_module);
-$xtpl->assign('LANG', $lang_global);
+$xtpl->assign('GLANG', $lang_global);
 
 foreach ($row as $data) {
 	$data['url_edit'] = NV_BASE_ADMINURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&' . NV_NAME_VARIABLE . '=' . $module_name . '&' . NV_OP_VARIABLE . '=cat&id='.$data['id'];

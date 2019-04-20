@@ -6,7 +6,9 @@ $page_title = $lang_module['main_cat'];
 
 
 $row['id'] = $nv_Request->get_int('id','get', 0);
+
 $savecat=$nv_Request->get_int('save','post', 0);
+
 if($savecat){
 	$row['title']=$nv_Request->get_title('title','post', '');
 	$row['alias']=$nv_Request->get_string('alias','post', '');
