@@ -17,7 +17,7 @@ if($nv_Request->get_title('save')==10)
 	echo "MST:" . $mst ."</br>";
 	echo "So dien thoai:" . $phone ."</br>";
 	echo "Email:" . $email ."</br>";
-	
+	die;
 }
 
 

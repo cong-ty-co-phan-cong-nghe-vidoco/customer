@@ -32,9 +32,7 @@ if($savecat){
 			}catch (PDOException $e) {
                 trigger_error($e->getMessage());
 				
-            }
-			
-			
+            }		
 			if($newcatid>0){
 				nv_insert_logs(NV_LANG_DATA, $module_name, $lang_module['add_cat'], $row['title'], $admin_info['userid']);
 			}
@@ -45,8 +43,7 @@ if($savecat){
 			$stmt->bindParam(':alias', $row['alias'], PDO::PARAM_STR);
 			$stmt->bindParam(':catid', $row['catid'], PDO::PARAM_INT);
 			if($stmt->execute()){
-				nv_insert_logs(NV_LANG_DATA, $module_name, $lang_module['edit_cat'], $row['title'], $admin_info['userid']);
-			
+				nv_insert_logs(NV_LANG_DATA, $module_name, $lang_module['edit_cat'], $row['title'], $admin_info['userid']);		
 			}
 		}
 		

@@ -24,3 +24,4 @@ if (!defined('NV_ADMIN') or !defined('NV_MAINFILE'))
 	$lang_module['action'] = 'Hành động'; 
 	$lang_module['edit'] = 'Sửa'; 
 	$lang_module['del'] = 'Xóa'; 
+	$lang_module['product'] = 'Sản phẩm';
