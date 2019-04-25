@@ -42,7 +42,11 @@
 <form method="POST" name="" action="{ACTION}">
 	<div>
 		<label for="text">{LANG.cat_title}:</label>
+<<<<<<< HEAD
 		<input type="text" class="form-control" id="{ROW.title}">
+=======
+		<input type="text" name="Tên KH" class="form-control" id="{ROW.title}">
+>>>>>>> e7b722a4a1919e485f3e2564ec98940a6b0068b6
 	</div>
 	<div>
 		<label for="text">{LANG.alias}:</label>
