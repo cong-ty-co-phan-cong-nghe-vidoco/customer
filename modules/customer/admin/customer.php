@@ -1,5 +1,9 @@
 <?php
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2560de53979882a8a5a23adc42bccb617d75e683
 $xtpl = new XTemplate('customer.tpl', NV_ROOTDIR . '/themes/' . $global_config['admin_theme'] 
 . '/modules/' . $module_file);
 $xtpl->assign('LANG', $lang_module);
