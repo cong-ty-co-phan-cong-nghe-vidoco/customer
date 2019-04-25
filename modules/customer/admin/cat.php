@@ -3,6 +3,7 @@
 if (! defined('NV_ADMIN')) {
     die('Stop!!!');
 }
+<<<<<<< HEAD
 
 
 $row['id'] = $nv_Request->get_int('id','get', 0);
@@ -78,6 +79,15 @@ if (!empty($error)) {
 $xtpl->parse('main.form');
 $xtpl->parse('main');
 $contents = $xtpl->text('main');
+=======
+//print_r($global_config);die;
+$xtpl = new XTemplate('cat.tpl', NV_ROOTDIR . '/themes/' . $global_config['admin_theme'] . '/modules/' . $module_file);
+$xtpl->assign('LANG', $lang_module);
+$xtpl->assign('GLANG', $lang_global);
+
+$xtpl->parse('vidoco');
+$contents = $xtpl->text('vidoco');
+>>>>>>> 000b568cc8a7dd2d6f5de5f2482ad48d700b4396
  
 include (NV_ROOTDIR . "/includes/header.php");
 //echo $contents; -> echo text off class themes

@@ -1,5 +1,4 @@
 <!-- BEGIN: main -->
-<<<<<<< HEAD
 <!-- BEGIN: view -->
 <table class="table table-striped table-bordered table-hover">
 	<thead>
@@ -42,27 +41,12 @@
 <!-- BEGIN: form -->
 <form method="POST" name="" action="{ACTION}">
 	<div>
-		<label>{LANG.cat_title}:</label>
-		<input type="text" name="title" value="{ROW.title}" />
+		<label for="text">{LANG.cat_title}:</label>
+		<input type="text" class="form-control" id="{ROW.title}">
 	</div>
 	<div>
-		<label>{LANG.alias}:</label>
-		<input type="text" name="alias" value="{ROW.alias}" />
-=======
-
-<!-- BEGIN: error -->
-{ERROR}
-<!-- END: error -->
-
-<form method="POST" name="" action="{ACTION}">
-	<div>
-		<label>{LANG.cat_title}:</label>
-		<input type="text" name="title" value="" />
-	</div>
-	<div>
-		<label>{LANG.alias}:</label>
-		<input type="text" name="alias" value="" />
->>>>>>> 000b568cc8a7dd2d6f5de5f2482ad48d700b4396
+		<label for="text">{LANG.alias}:</label>
+		<input type="text" class="form-control" id="{ROW.alias}">
 	</div>
 	<div>
 		<label>{LANG.catid}:</label>
@@ -78,9 +62,5 @@
 		<input name="submit" type="submit"  value="{LANG.save}"/>
 	</div>
 </form>
-<<<<<<< HEAD
 <!-- END: form -->
-=======
-
->>>>>>> 000b568cc8a7dd2d6f5de5f2482ad48d700b4396
 <!-- END: main --> 

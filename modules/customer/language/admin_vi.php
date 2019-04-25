@@ -10,6 +10,7 @@ $lang_translator['info'] = '';
 $lang_translator['langtype'] = 'lang_module';
  
 $lang_module['main_cus'] = 'Quản lý Khác Hàng';
+<<<<<<< HEAD
 $lang_module['main_cat'] = 'Thêm danh muc';
 $lang_module['customer_add'] = 'Thêm khách hàng'; 
 $lang_module['cat_title'] = 'Tên danh mục'; 
@@ -24,3 +25,7 @@ $lang_module['weight'] = 'Sắp xếp thứ tự';
 $lang_module['action'] = 'Hành động'; 
 $lang_module['edit'] = 'Sửa'; 
 $lang_module['del'] = 'Xóa'; 
+=======
+$lang_module['main_cat'] = 'Quản lý danh muc';
+$lang_module['customer_add'] = 'Thêm khách hàng'; 
+>>>>>>> 000b568cc8a7dd2d6f5de5f2482ad48d700b4396
