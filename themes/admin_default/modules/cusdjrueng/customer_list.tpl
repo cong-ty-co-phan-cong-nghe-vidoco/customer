@@ -5,12 +5,16 @@
 		<tr>
 			<th>ID</th>
 			<th>TITLE</th>
+			<th>ACTION</th>
 		</tr>
 		<!-- BEGIN: loop -->
 			<tr>
-				<td>{id}</td>
-				<td>{title}</td>
-				
+				<td>{DATA.id}</td>
+				<td>{DATA.title}</td>
+				<td>
+					<a href="{DATA.url_edit}">edit</a> - 
+					<a href="{DATA.url_del}">Delete</a>
+				</td>
 			</tr>
 
 			<!-- END: loop -->
