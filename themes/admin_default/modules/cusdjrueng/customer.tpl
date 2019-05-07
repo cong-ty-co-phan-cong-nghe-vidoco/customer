@@ -5,13 +5,13 @@
 	<input type="radio" name="checkbox" value="0" checked="checked" />&nbsp;Cá nhân
 	<input type="radio" name="checkbox" value="1" />&nbsp;Tổ chức<br /><br />
 	
-	<label>Họ và tên:</label>:&nbsp
-	;<input type="text" name="full_name" value="{ROW.title}" /><br /><br />
+	<label>Họ và tên:</label>:&nbsp;
+	<input type="text" name="full_name" value="{ROW.title}" class="form-control" /><br /><br />
 	<label>Tên công ty</label>:&nbsp;<input class="form-control" type="text" name="company" value="{ROW.company}" /><br /><br />
-	<label>Địa chỉ</label>:&nbsp;<input type="text" name="address" value="{ROW.address}" /><br /><br />
-	<label>Mã số thuế</label>:&nbsp;<input type="text" name="mst" value="{ROW.tax}" /><br /><br />
-	<label>Số điện thoại</label>:&nbsp;<input type="text" name="phone" value="" /><br /><br />
-	<label>Email</label>:&nbsp;<input type="text" name="email" value="" /><br /><br />
+	<label>Địa chỉ</label>:&nbsp;<input class="form-control" type="text" name="address" value="{ROW.address}" /><br /><br />
+	<label>Mã số thuế</label>:&nbsp;<input class="form-control" type="text" name="mst" value="{ROW.tax}" /><br /><br />
+	<label>Số điện thoại</label>:&nbsp;<input class="form-control" type="text" name="phone" value="" /><br /><br />
+	<label>Email</label>:&nbsp;<input class="form-control" type="text" name="email" value="" /><br /><br />
 	<button>Submit</button>
 </form>
 
