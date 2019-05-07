@@ -46,7 +46,7 @@ if($savecat){
 				nv_insert_logs(NV_LANG_DATA, $module_name, $lang_module['edit_cat'], $row['title'], $admin_info['userid']);		
 			}
 		}
-		
+		//nv_fix_cat_order(); 
 		nv_redirect_location(NV_BASE_ADMINURL . 'index.php?' . NV_LANG_VARIABLE . '=' . NV_LANG_DATA . '&' . NV_NAME_VARIABLE . '=' . $module_name . '&' . NV_OP_VARIABLE . '=cat_list' );
 		
 	}
